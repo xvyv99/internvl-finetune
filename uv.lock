@@ -255,6 +255,7 @@ dependencies = [
     { name = "langchain", extra = ["openai"] },
     { name = "opencv-python" },
     { name = "python-dotenv" },
+    { name = "tqdm" },
 ]
 
 [package.metadata]
@@ -262,6 +263,7 @@ requires-dist = [
     { name = "langchain", extras = ["openai"], specifier = ">=0.3.25" },
     { name = "opencv-python", specifier = ">=4.11.0.86" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
+    { name = "tqdm", specifier = ">=4.67.1" },
 ]
 
 [[package]]
